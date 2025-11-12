@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Fastest Speed Communications — Home</title>
+  <meta name="description" content="Fastest Speed Communications — fast, reliable, and affordable telecommunications and ISP solutions." />
+  <style>
+    /* Simple modern responsive styling */
+    :root{
+      --accent:#0b75d1;
+      --dark:#062033;
+      --muted:#6b7280;
+      --card:#ffffff;
+      --bg:#f6f9fc;
+      --maxw:1100px;
+      --radius:12px;
+      font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background: linear-gradient(180deg,#f6fbff 0%, #f6f9fc 100%);
+      color:#0b2540;
+      -webkit-font-smoothing:antialiased;
+      -moz-osx-font-smoothing:grayscale;
+      line-height:1.45;
+    }
+    .container{max-width:var(--maxw);margin:32px auto;padding:20px}
+    header{
+      display:flex;align-items:center;gap:18px;
+      padding:18px;background:linear-gradient(90deg,rgba(11,117,209,0.06),rgba(6,32,51,0.02));
+      border-radius:var(--radius);
+      box-shadow:0 6px 18px rgba(7,25,40,0.06);
+    }
+    .logo {
+      display:flex;align-items:center;gap:12px;
+    }
+    .logo svg{width:84px;height:84px;border-radius:10px;background:white;padding:10px;box-shadow:0 6px 18px rgba(7,25,40,0.04)}
+    .brand h1{margin:0;font-size:20px;color:var(--dark)}
+    .brand p{margin:2px 0 0;color:var(--muted);font-size:13px}
+    nav{margin-left:auto;display:flex;gap:12px;align-items:center}
+    .btn {
+      display:inline-flex;align-items:center;gap:8px;padding:10px 14px;border-radius:10px;border:0;
+      background:var(--accent);color:white;text-decoration:none;font-weight:600;font-size:14px;
+      box-shadow:0 6px 14px rgba(11,117,209,0.18);
+    }
+    .secondary {
+      background:transparent;color:var(--dark);border:1px solid rgba(6,32,51,0.06);padding:9px 12px;border-radius:10px;
+    }
+
+    main{display:grid;grid-template-columns:1fr;gap:20px;margin-top:20px}
+    .hero{
+      background:linear-gradient(90deg,rgba(11,117,209,0.06),rgba(6,32,51,0.02));
+      padding:22px;border-radius:12px;
+      display:flex;gap:20px;flex-direction:column;
+    }
+    .hero-inner{display:flex;gap:22px;align-items:center;flex-wrap:wrap}
+    .hero h2{margin:0;font-size:26px;color:var(--dark)}
+    .hero p{margin:6px 0 0;color:var(--muted)}
+    .info-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px;margin-top:10px}
+    .card{
+      background:var(--card);border-radius:12px;padding:16px;box-shadow:0 6px 18px rgba(7,25,40,0.04);
+    }
+    .card h3{margin:0 0 8px;font-size:16px}
+    .small{font-size:13px;color:var(--muted)}
+    footer{margin-top:18px;padding:18px;border-radius:10px;background:transparent;display:flex;gap:20px;flex-wrap:wrap;align-items:center}
+    .contact{background:linear-gradient(180deg,white, #fbfdff);padding:14px;border-radius:10px;border:1px solid rgba(6,32,51,0.03)}
+    .links {display:flex;gap:12px;flex-wrap:wrap}
+    a.external{color:var(--accent);text-decoration:none;font-weight:600}
+    /* responsive tweaks */
+    @media (min-width:800px){
+      main{grid-template-columns: 2fr 1fr}
+      .hero{padding:28px}
+    }
+    /* accessibility focus outlines */
+    a:focus, button:focus {outline:3px solid rgba(11,117,209,0.18);outline-offset:2px}
+  </style>
+</head>
+<body>
+  <div class="container" role="document">
+    <header role="banner" aria-label="Fastest Speed Communications header">
+      <div class="logo" aria-hidden="false">
+        <!-- Inline SVG logo (keeps page self-contained) -->
+        <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Fastest Speed logo">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#0b75d1"/>
+              <stop offset="1" stop-color="#06a6ff"/>
+            </linearGradient>
+          </defs>
+          <rect width="120" height="120" rx="16" fill="url(#g1)"/>
+          <g transform="translate(12,12)" fill="#fff">
+            <path d="M24 6 L48 6 L36 36 z" opacity="0.95"></path>
+            <circle cx="70" cy="60" r="18" opacity="0.95"></circle>
+            <path d="M12 84 L96 12" stroke="#ffffff" stroke-width="4" stroke-linecap="round" fill="none" opacity="0.12"></path>
+          </g>
+        </svg>
+      </div>
+
+      <div class="brand" aria-hidden="false">
+        <h1>Fastest Speed Communications</h1>
+        <p>Fast, reliable, and affordable telecommunications & ISP solutions</p>
+        <div class="small" style="margin-top:6px">Headquarters: 2200 Horizon Drive, Suite 500, Atlanta, GA 30339</div>
+      </div>
+
+      <nav aria-label="Primary navigation">
+        <a class="btn" href="#products" title="View products">View Plans</a>
+        <a class="secondary" href="#contact" title="Contact us">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <!-- Left column: hero + company overview -->
+      <section class="hero" aria-labelledby="home-hero">
+        <div class="hero-inner">
+          <div style="flex:1">
+            <h2 id="home-hero">Connecting communities with next-generation connectivity</h2>
+            <p>
+              <strong>Mission:</strong> To connect people and businesses with fast, reliable, and affordable communication solutions that empower communities and drive digital inclusion.
+            </p>
+            <p class="small">We provide residential fiber up to 2 Gbps, 5G home wireless, digital TV and streaming packages, and smart home integration — plus enterprise-grade fiber, VoIP, cloud networking, and managed IT services.</p>
+          </div>
+          <div style="min-width:220px">
+            <div class="card" role="region" aria-label="Key facts">
+              <h3>Company at a glance</h3>
+              <p class="small"><strong>Type:</strong> LLC (Privately owned)</p>
+              <p class="small"><strong>Divisions:</strong> Network Operations, Customer Experience, Innovation & Technology, Sales & Marketing, Corporate Services</p>
+              <p class="small"><strong>Contact:</strong> Customer Support: <a href="tel:+18005555551">+1 (800) 555-5551</a></p>
+              <p class="small"><strong>Email:</strong> <a href="mailto:contact@fastestspeed.com">contact@fastestspeed.com</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="info-cards" aria-hidden="false">
+          <article class="card" aria-labelledby="res-plans">
+            <h3 id="res-plans">Residential Services</h3>
+            <p class="small">High-Speed Fiber up to 2 Gbps · 5G Home Wireless · Digital TV & Streaming · Smart Home packages</p>
+            <div style="margin-top:12px">
+              <a href="https://www.fastestspeed.com/products/residential" class="external" target="_blank" rel="noopener">Residential plans & pricing ↗</a>
+            </div>
+          </article>
+
+          <article class="card" aria-labelledby="biz-solutions">
+            <h3 id="biz-solutions">Business Solutions</h3>
+            <p class="small">Dedicated fiber, VoIP & Unified Communications, Cloud Networking, Managed IT & Cybersecurity</p>
+            <div style="margin-top:12px">
+              <a href="https://www.fastestspeed.com/products/business" class="external" target="_blank" rel="noopener">Enterprise & business packages ↗</a>
+            </div>
+          </article>
+
+          <article class="card" aria-labelledby="specialized">
+            <h3 id="specialized">Special Programs</h3>
+            <p class="small">Rural Broadband Expansion · Smart Cities IoT · Satellite Backup for remote operations · Infrastructure leasing</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Right column: leadership, divisions, quick links -->
+      <aside aria-labelledby="leadership" style="min-width:260px">
+        <div class="card" role="region" aria-label="Leadership & divisions">
+          <h3 id="leadership">Leadership & Divisions</h3>
+          <p class="small"><strong>Youssof Diallo</strong> — Chief Executive Officer (CEO)</p>
+          <p class="small"><strong>Amina Johnson</strong> — CTO</p>
+          <p class="small"><strong>David Chen</strong> — CFO</p>
+          <p class="small"><strong>Maria Lopez</strong> — Director of Customer Experience</p>
+          <p class="small"><strong>James Carter</strong> — Head of Marketing & Sales</p>
+          <p class="small"><strong>Fatima Khan</strong> — HR & Compliance Manager</p>
+          <p class="small"><strong>Marcus Reed</strong> — Network Operations Manager</p>
+        </div>
+
+        <div class="card" style="margin-top:16px" role="region" aria-label="Quick links">
+          <h3>Quick Links</h3>
+          <div class="links">
+            <!-- Two external links to Students' business products pages as requested -->
+            <a href="https://www.fastestspeed.com/students/product-one" class="external" target="_blank" rel="noopener">Students' Product A ↗</a>
+            <a href="https://www.fastestspeed.com/students/product-two" class="external" target="_blank" rel="noopener">Students' Product B ↗</a>
+          </div>
+          <p class="small" style="margin-top:8px">These links open in a new tab and are suitable for pointing to student project pages or hosted product pages.</p>
+        </div>
+      </aside>
+    </main>
+
+    <footer id="contact" role="contentinfo">
+      <div class="contact">
+        <strong>Contact & Offices</strong>
+        <div class="small" style="margin-top:6px">Headquarters: 2200 Horizon Drive, Suite 500, Atlanta, GA 30339</div>
+        <div class="small">Customer Support: <a href="tel:+18005555551">+1 (800) 555-5551</a> · Corporate: <a href="tel:+18005555552">+1 (800) 555-5552</a></div>
+        <div class="small">Email: <a href="mailto:contact@fastestspeed.com">contact@fastestspeed.com</a></div>
+      </div>
+
+      <div style="margin-left:auto" aria-hidden="false">
+        <small class="small">© <span id="year"></span> Fastest Speed Communications — All rights reserved</small>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    // Simple runtime tests and small user-side validators (safe, client-only).
+    (function(){
+      // insert current year
+      document.getElementById('year').textContent = new Date().getFullYear();
+
+      // Basic "link check" behaviour: highlight external links in console and set data attribute
+      const external = Array.from(document.querySelectorAll('a[target="_blank"]'));
+      external.forEach(a => {
+        a.dataset.tested = 'not-checked';
+        console.log('External link ready:', a.href);
+        // Add a click listener that logs which link was clicked (good for basic testing)
+        a.addEventListener('click', function(ev){
+          console.log('User clicked external link (should open in new tab):', this.href);
+          // mark it tested (no network checks performed)
+          this.dataset.tested = 'clicked';
+        }, {passive:true});
+      });
+
+      // Basic accessibility check: ensure main landmarks present
+      if (!document.querySelector('header') || !document.querySelector('main') || !document.querySelector('footer')) {
+        console.warn('Basic layout missing a main landmark (header/main/footer). Please review HTML structure.');
+      } else {
+        console.log('Basic landmarks present: header, main, footer.');
+      }
+
+    })();
+  </script>
+</body>
+</html>
